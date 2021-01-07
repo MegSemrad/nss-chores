@@ -14,12 +14,7 @@
         { "id": 4, "task": "Clean the bedrooms" },
         { "id": 5, "task": "Family game night" },
         { "id": 6, "task": "Feed the dog" }
-    ]
-}
-
-
-
-{
+    ],
     "familyChores": [
         {
             "id": 1,
