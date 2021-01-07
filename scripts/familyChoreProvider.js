@@ -2,6 +2,6 @@ let familyChores = []
 
 export const useFamilyChores = () => familyChores.slice()
 
-export const getFamilyChores = () => fetch("http://localhost:8088/familychores")
-    .then(res => res.json())
+export const getFamilyChores = () => fetch("http://localhost:8040/familychores")
+    .then(response => response.json())
     .then(data => familyChores = data)
